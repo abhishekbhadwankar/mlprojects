@@ -19,8 +19,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
 name="mlprojects",
 version='0.0.1',
-author='AbhishekB,
-author_email='abhishek.aero86@gamil.com'
-packages=find_packages()
-install_requires=['pandas', 'numoy', 'seaborn']
+author='AbhishekB',
+author_email='abhishek.aero86@gamil.com',
+packages=find_packages(),
+install_requires=get_requirements('requirments.txt')
 )
