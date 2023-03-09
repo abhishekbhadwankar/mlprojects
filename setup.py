@@ -22,5 +22,5 @@ version='0.0.1',
 author='AbhishekB',
 author_email='abhishek.aero86@gamil.com',
 packages=find_packages(),
-install_requires=get_requirements('requirments.txt')
+install_requires=get_requirements('requirements.txt')
 )
